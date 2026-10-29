@@ -1,4 +1,4 @@
-# NUDT Touying 汇报模板
+# Modern NUDT Touying 汇报模板
 
 基于 Typst 和 Touying 的非官方演示文稿模板，适合组会汇报、文献分享和项目汇报。
 
