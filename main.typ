@@ -7,6 +7,7 @@
   author: [汇报人：姓名],
   date: [汇报日期],
   institution: [单位 / 学院 / 实验室],
+  toc-mode: "full",
 )
 
 #title-slide()

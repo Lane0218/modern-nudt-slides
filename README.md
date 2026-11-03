@@ -13,6 +13,7 @@ typst compile main.typ main.pdf
 ## 修改内容
 
 - 在 `main.typ` 开头修改标题、副标题、汇报人、日期和单位。
+- 在 `use-theme` 中设置 `toc-mode` 控制目录页：`"none"` 不显示目录，`"once"` 只显示总目录，`"full"` 显示总目录并在每章前显示章节目录。默认值为 `"full"`；保留 `#toc-slide()` 调用即可由该设置统一控制。
 - 替换示例章节与内容；可参考示例中的标题、列表、表格、公式和代码写法。
 - 在 `theme.typ` 中调整配色、字体、页眉页脚等主题样式。
 - 图片放在 `images/` 下，并在 `main.typ` 中使用 `#image("images/文件名.png")` 引用。
