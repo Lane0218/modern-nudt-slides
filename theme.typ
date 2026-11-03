@@ -3,6 +3,24 @@
 
 #let nudt-green = rgb("#005844")
 
+#let highlight-box(
+  body,
+  width: 100%,
+  height: auto,
+  radius: 0.15in,
+  inset: 0.22in,
+  stroke: (paint: nudt-green, thickness: 1pt),
+  fill: rgb("#f3f8f5"),
+) = block(
+  width: width,
+  height: height,
+  radius: radius,
+  inset: inset,
+  stroke: stroke,
+  fill: fill,
+  body,
+)
+
 #let compact-code(code, height: auto) = block(
   width: 100%,
   height: height,
